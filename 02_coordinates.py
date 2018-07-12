@@ -20,3 +20,11 @@ print( LCO.lon,LCO.lat)
 time = Time('2019-03-10 22:00:00') # That's in Universal Time Coordinated!
 lmg_altaz = lmc_center.transform_to(AltAz(obstime=time,location=LCO))
 print(lmg_altaz.az, lmg_altaz.alt) 
+
+
+#Plot the altitude of M31 (the Andromeda galaxy) at Las Campanas Observatory on March 10th 2019 between 6PM and 6AM LOCAL TIME.
+#Hint The following Python code is valid to get the time 30 minutes later than a given time and date.
+
+#time = Time('2019-03-10 18:00:00') + 0.5*u.hour
+
+#Will be M31 observable that night at Las Campanas? / asw: NO
