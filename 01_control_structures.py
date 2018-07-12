@@ -8,4 +8,5 @@ for i in range(100):
         point_once=int(random.random()*6+1)
         points += point_once
         counts += 1
+    points += point_once
     print(point_once,points,counts)
